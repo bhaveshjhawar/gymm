@@ -1,0 +1,77 @@
+.top{
+    height: 110vh;
+    /* background: url(/gym_images/hanuman_mainbg.jpg) no-repeat center center/cover ; */
+    /* background-size: 50vh 20vw; */
+    background-color: rgb(0, 0, 0);
+}
+
+.top::before{
+    content: "";
+position: absolute;
+height: 110%;
+width: 100%;
+background: url(/gym_images/bg2.jpg) no-repeat center center/cover;
+opacity: 0.23;
+    
+     
+}
+/* this is the main nav bar  */
+.nav_aboutus{
+    height: 13vh;
+    width: 100%;
+    /* background-color: rgb(48, 80, 110); */
+    display: flex;
+    /* position: fixed;
+    z-index: 100; */
+    background-color: black;
+}
+.nav_aboutus img{
+    height: 13vh;
+width: 19vh;
+filter: invert(100%);
+float: left;
+
+}
+.nav_aboutus h{
+    align-self: center;
+    display: block;
+    margin: auto;
+    margin-left: 28%;
+}
+
+
+/* mainscreen aboutus */
+/* "mainscreen_aboutus">
+            <div class="about_us_box"> */
+.mainscreen_aboutus{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.about_us_box{
+    height: 80%;
+    width: 80%;
+    border: 2px solid white;
+    align-self: center;
+    /* background-color: aqua; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about_us_heading{
+    font-family: 'Saira Stencil One', cursive; 
+    font-size: 2rem;
+    display: block;
+    color: red;
+    margin: 0px  auto 15vh auto;
+}
+.about_us_data
+{
+    width: 64vw;
+font-size: 1.5rem;
+}
+
+
